@@ -20,9 +20,19 @@
                 
             </picture>
             
-            <h2 class="instruction"> Go to Libgen website and search for the book you want to download and click on the desired book's link and copy the md5 hash from the download links page and paste it here for downloading the book without <strong>ads</strong></h2>
+            <div class="search ">
+                <div class="searchBar">
+                <label class="label" for="hash">search for the book here:</label>
+                <input type="text" name="book" id="book" class="inp">
+                <button type="submit" onclick="search()" class="button">search</button>
+                </div>
+             <p class="instruction">paste the md5 hash of the book to download it without ads</p>
+
+           </div>
         </aside>
         <content class="cont-2">
+          
+
             <div class="form">
                 <label class="label" for="hash">paste the md5 hash here:</label>
                 <input type="text" name="hash" id="hash" class="inp">
